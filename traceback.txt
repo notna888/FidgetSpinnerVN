@@ -1,0 +1,21 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 42, in script
+    f2 "Awww, but %(she_he)'s so cute"
+ValueError: unsupported format character ''' (0x27) at index 19
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 42, in script
+    f2 "Awww, but %(she_he)'s so cute"
+  File "E:\renpy\renpy-6.99.13-sdk\renpy\ast.py", line 624, in execute
+    renpy.exports.say(who, what, interact=self.interact, *args, **kwargs)
+  File "E:\renpy\renpy-6.99.13-sdk\renpy\exports.py", line 1162, in say
+    what = what % tag_quoting_dict
+ValueError: unsupported format character ''' (0x27) at index 19
+
+Windows-8-6.2.9200
+Ren'Py 6.99.13.2919
+FidgetSexuals 1.0
