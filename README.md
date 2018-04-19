@@ -29,7 +29,7 @@ Production Lead:
 
  Programming:
 
-- ​
+- Gavin ​
 
 Story:
 
